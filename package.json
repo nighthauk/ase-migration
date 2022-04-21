@@ -1,0 +1,17 @@
+{
+    "name": "ase-migration",
+    "version": "1.0.0",
+    "description": "GAS project to track account migration progress from KRS/AAG to ASE",
+    "main": ".src/Code.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "prettier": {
+        "singleQuote": true
+    },
+    "author": "Ryan Hauk",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "@types/google-apps-script": "^1.0.46"
+    }
+}
