@@ -303,9 +303,5 @@ function onOpen() {
 }
 
 function aboutDialog() {
-    ui.alert(
-        'Help'
-        , 'In the Akamai menu item, select "Add Customer" and enter an Account key. Further instructions can be found at... Created by Ryan Hauk (rhauk@akamai.com). Reach out with support requests.'
-        , ui.Button.CLOSE
-    );
+    let help = ui.alert('In the Akamai menu item, select "Add Customer" and enter an Account key. Further instructions can be found at https://github.com/nighthauk/ase-migration. Created by Ryan Hauk. Reach out with support requests.');
 }
